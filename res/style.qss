@@ -1,0 +1,34 @@
+/* 
+**Some references:**
+- The Style Sheet Syntax: https://doc.qt.io/qt-5/stylesheet-syntax.html
+- Qt Style Sheets Reference: https://doc.qt.io/qt-5/stylesheet-reference.html
+- Qt Style Sheets Examples: https://doc.qt.io/qtforpython-6/overviews/stylesheet-examples.html
+- Widget Styling (with a `.qss` file): https://doc.qt.io/qtforpython-5/tutorials/basictutorial/widgetstyling.html
+*/
+
+
+QListWidget::item:selected {
+  background-color: #0055ff;
+  /* background-color: #beffae00; */
+}
+
+
+QRadioButton::checked {
+  color: #0055ff;
+}
+
+QLabel {
+  background-color: #FFFFFF;
+  qproperty-alignment: AlignCenter;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+QPushButton {
+  background-color: #0055ff;
+  padding: 4px;
+  /* font-size: 10px; */
+}
+QPushButton:disabled {
+  background-color: #53617e;
+}
